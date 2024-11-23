@@ -1,4 +1,3 @@
-Certainly! Below is the `README.md` file based on the details you provided, summarizing your work and projects:
 
 ---
 
@@ -168,5 +167,3 @@ arch_fit = arch_model.fit()
 3. **ARCH/GARCH Models**: Engle, R.F. (1982). Autoregressive Conditional Heteroskedasticity with Estimates of the Variance of United Kingdom Inflation.
 
 ---
-
-This `README.md` gives an overview of the project, the methodology, results, and how to install and use the code. If you need more adjustments, feel free to let me know!
