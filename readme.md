@@ -130,7 +130,7 @@ To get started with the project, follow these steps:
 
 2. Install the required dependencies:
    ```bash
-pip install pandas matplotlib seaborn statsmodels pmdarima numpy sklearn arch
+   pip install pandas matplotlib seaborn statsmodels pmdarima numpy sklearn arch
    ```
 
 ## Usage
@@ -140,24 +140,6 @@ pip install pandas matplotlib seaborn statsmodels pmdarima numpy sklearn arch
 3. Visualize the results and residuals to assess model performance.
 4. Use the trained models for forecasting future time points or for volatility analysis.
 
-### Example:
-
-```python
-import statsmodels.api as sm
-
-# ARIMA model fitting
-model = sm.tsa.ARIMA(data, order=(2, 0, 0))
-model_fit = model.fit()
-
-# SARIMA model fitting
-sarima_model = sm.tsa.SARIMAX(data, order=(2, 0, 0), seasonal_order=(1, 1, 1, 12))
-sarima_model_fit = sarima_model.fit()
-
-# ARCH model fitting
-from arch import arch_model
-arch_model = arch_model(returns, vol='ARCH')
-arch_fit = arch_model.fit()
-```
 
 ## References
 
