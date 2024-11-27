@@ -117,7 +117,7 @@ The **GARCH** model was applied for more advanced volatility modeling, capturing
 
 ### Model Performance
 - The **RMSE** and **MSE** metrics show the error levels for each model. The ARIMA and SARIMA models performed well, although further refinement is needed for better forecasting accuracy.
-- The **ARCH** and **GARCH** models provide insights into the volatility dynamics, though the results indicate that more sophisticated modeling might be required for complex financial data.
+- The **ARCH** and **GARCH** models provide insights into the volatility dynamics, though the results indicate that more sophisticated modeling might be required for complex data.
 
 ## Installation
 
